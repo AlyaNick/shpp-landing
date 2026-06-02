@@ -23,9 +23,6 @@ const openDocument = inject('openDocument', null)
         <div class="footer-bottom-right">
           <a href="tel:+78001234567" class="footer-contact">8 800 123-45-67</a>
           <div class="footer-social">
-            <a href="#" class="footer-social-link" aria-label="Instagram">
-              <img :src="images.social.instagram" alt="" width="14" height="14" />
-            </a>
             <a href="#" class="footer-social-link" aria-label="Telegram">
               <img :src="images.social.telegram" alt="" width="14" height="14" />
             </a>
