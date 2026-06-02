@@ -209,7 +209,7 @@ main {
 .hero-chart {
   left: 50%;
   bottom: 56px;
-  width: clamp(260px, 40vw, 440px);
+  width: clamp(230px, 34vw, 380px);
   transform: translateX(-50%);
   filter: drop-shadow(0 16px 24px rgba(0, 0, 0, 0.48));
   z-index: 1;
@@ -799,7 +799,7 @@ button.footer-privacy {
   }
 
   .hero-chart {
-    width: clamp(240px, 52vw, 340px);
+    width: clamp(210px, 46vw, 300px);
     bottom: 44px;
   }
 
@@ -906,7 +906,7 @@ button.footer-privacy {
   .hero-chart {
     left: 50%;
     bottom: 32px;
-    width: min(88vw, 320px);
+    width: min(80vw, 280px);
     opacity: 1;
   }
 }
