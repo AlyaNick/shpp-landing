@@ -21,4 +21,9 @@ export const images = {
   cookie: {
     banner: '/cookie/cookie.png',
   },
+  partners: {
+    gis: '/img/partners/gis.png',
+    novyeLyudi: '/img/partners/novye-lyudi.png',
+    arkonaForest: '/img/partners/arkona-forest.png',
+  },
 }

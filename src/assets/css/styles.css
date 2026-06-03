@@ -617,6 +617,93 @@ main {
   font-size: 28px;
 }
 
+.partners-section {
+  padding-top: 28px;
+  padding-bottom: 44px;
+}
+
+.partners-section .section-head {
+  width: 100%;
+  margin-bottom: 28px;
+}
+
+.partners-list {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.partners-list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 0;
+  min-width: 0;
+  width: auto;
+  height: 92px;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow:
+    0 10px 36px rgba(85, 216, 208, 0.16),
+    0 6px 20px rgba(0, 0, 0, 0.35);
+  transition:
+    box-shadow 0.22s ease,
+    border-color 0.22s ease;
+}
+
+.partners-list li:hover {
+  border-color: rgba(85, 216, 208, 0.35);
+  box-shadow:
+    0 14px 44px rgba(85, 216, 208, 0.24),
+    0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.partners-list img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  opacity: 0.96;
+  transition: opacity 0.2s ease;
+}
+
+.partners-list li:first-child img,
+.partners-list li:last-child img {
+  transform: scale(1.22);
+  transform-origin: center;
+}
+
+.partners-list li:hover img {
+  opacity: 1;
+}
+
+.partners-item--white {
+  background: rgba(255, 255, 255, 0.96);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.partners-item--white img {
+  mix-blend-mode: normal;
+}
+
+.partners-item--light {
+  background: rgba(244, 247, 246, 0.92);
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
 .final-card {
   display: flex;
   flex-direction: column;
@@ -813,6 +900,17 @@ button.footer-privacy {
   .register-section,
   .steps-grid {
     grid-template-columns: 1fr;
+  }
+
+  .partners-list {
+    gap: 10px;
+  }
+
+  .partners-list li {
+    flex: 1 1 0;
+    min-width: 0;
+    width: auto;
+    height: 84px;
   }
 
   .steps-grid {

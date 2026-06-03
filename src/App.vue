@@ -6,6 +6,7 @@ import AboutSection from './components/AboutSection.vue'
 import BenefitsSection from './components/BenefitsSection.vue'
 import StepsSection from './components/StepsSection.vue'
 import RegisterSection from './components/RegisterSection.vue'
+import PartnersSection from './components/PartnersSection.vue'
 import SiteFooter from './components/SiteFooter.vue'
 import CookieConsentBanner from './components/CookieConsentBanner.vue'
 import DocumentModals from './components/DocumentModals.vue'
@@ -29,6 +30,7 @@ provide('openDocument', openDocument)
       <BenefitsSection />
       <StepsSection />
       <RegisterSection />
+      <PartnersSection />
     </main>
   </div>
 
